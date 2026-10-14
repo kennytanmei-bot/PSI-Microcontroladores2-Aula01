@@ -64,22 +64,22 @@ int main(void)
 
     while (1) {
         // Primeiro exercicio
-        gpio_pin_set_dt(&led, 1);
+        /* gpio_pin_set_dt(&led, 1);
         k_msleep(SLEEP_TIME_MS1);
         gpio_pin_set_dt(&led, 0);
 		k_msleep(SLEEP_TIME_MS1);
         gpio_pin_set_dt(&led1, 1);
         k_msleep(SLEEP_TIME_MS);
 		gpio_pin_set_dt(&led1, 0);
-		k_msleep(SLEEP_TIME_MS);
+		k_msleep(SLEEP_TIME_MS); */
 
 
         // Desafio
-        /* gpio_pin_toggle_dt(&led);
+        gpio_pin_toggle_dt(&led);
         k_msleep(SLEEP_TIME_MS);
 
         gpio_pin_toggle_dt(&led1);
-        k_msleep(SLEEP_TIME_MS2); */
+        k_msleep(SLEEP_TIME_MS2);
 
 
 	}
