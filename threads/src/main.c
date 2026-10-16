@@ -28,7 +28,7 @@ static void thread_led_a(void *p1, void *p2, void *p3)
 
 static void thread_led_b(void *p1, void *p2, void *p3)
 {
-    blink(&led_b, 500); 
+    blink(&led_b, 350); 
 }
 
 K_THREAD_DEFINE(tid_a, STACK_SIZE, thread_led_a, NULL, NULL, NULL, PRIORITY, 0, 0);
